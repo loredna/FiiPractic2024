@@ -1,7 +1,7 @@
 ### Download and Install your starting toolbox
 
 Java 17
-https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html​
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 
 IntelliJ Idea (Community Edition)
 https://www.jetbrains.com/idea/download/?section=windows​
