@@ -1,0 +1,15 @@
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+# Default ignored files
+/shelf/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Ignore files in .idea folder ==> Starting with / specifies the pattern matches only files in the root folder
+/.idea
+
+# Ignore all .iml files
+*.iml
