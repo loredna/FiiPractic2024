@@ -21,13 +21,19 @@ public class UserServiceImpl implements UserService {
         this.userUtil = userUtil;
     }
 
-    public List<User> getAllUsers() {
-        return userRepository.getAllUsers();
-    }
-
     @Override
     public void registerUser(User user) {
         userRepository.createUser(user.getFirstName(), user.getLastName(), user.getEmail(), user.getPassword());
+    }
+
+    @Override
+    public User getUserById(Integer id) {
+        return userRepository.getUserById(id);
+    }
+
+    @Override
+    public List<User> getAllUsers() {
+        return userRepository.getAllUsers();
     }
 
     @Override
@@ -47,11 +53,6 @@ public class UserServiceImpl implements UserService {
     @Override
     public void deleteUser(Integer id) {
         userRepository.deleteUser(id);
-    }
-
-    @Override
-    public User getUserById(Integer id) {
-        return userRepository.getUserById(id);
     }
 
 }

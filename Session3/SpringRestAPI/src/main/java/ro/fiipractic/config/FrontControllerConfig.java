@@ -9,13 +9,13 @@ public class FrontControllerConfig extends AbstractAnnotationConfigDispatcherSer
     @Override
     protected Class<?>[] getRootConfigClasses() {
 
-        return new Class[] { AppConfig.class };
+        return new Class[] { DataSourceConfig.class };
     }
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
 
-        return null;
+        return new Class[0];
     }
 
     @Override

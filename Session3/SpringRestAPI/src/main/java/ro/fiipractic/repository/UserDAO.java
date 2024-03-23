@@ -43,4 +43,5 @@ public class UserDAO {
             throw new UserNotFoundException(String.format("User with id %s was not found", id));
         }
     }
+
 }

@@ -7,9 +7,11 @@ import java.util.Map;
 
 public interface UserService {
 
-    List<User> getAllUsers();
-
     void registerUser(User user);
+
+    User getUserById(Integer id);
+
+    List<User> getAllUsers();
 
     void updateUser(Integer id, User user);
 
@@ -17,5 +19,4 @@ public interface UserService {
 
     void deleteUser(Integer id);
 
-    User getUserById(Integer id);
 }

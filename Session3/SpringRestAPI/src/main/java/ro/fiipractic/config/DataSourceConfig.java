@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 @EnableWebMvc
 @ComponentScan("ro.fiipractic")
 @PropertySource("classpath:db-application.properties")
-public class AppConfig {
+public class DataSourceConfig {
 
     @Value( "${db.url}" )
     private String url;
